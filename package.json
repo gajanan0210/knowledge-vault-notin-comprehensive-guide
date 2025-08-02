@@ -2,9 +2,10 @@
   "name": "notion-knowledge-vault",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://gajanan0210.github.io/knowledge-vault-notin-comprehensive-guide",
   "scripts": {
     "dev": "next dev --turbopack",
-    "build": "next build",
+    "build": "next build && next export",
     "start": "next start",
     "lint": "next lint",
     "export": "next export",

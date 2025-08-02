@@ -5,7 +5,9 @@ const nextConfig: NextConfig = {
   trailingSlash: true,
   images: {
     unoptimized: true
-  }
+  },
+  basePath: '/knowledge-vault-notin-comprehensive-guide',
+  assetPrefix: '/knowledge-vault-notin-comprehensive-guide/'
 };
 
 export default nextConfig;
